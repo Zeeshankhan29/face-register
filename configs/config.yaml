@@ -1,0 +1,38 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir : artifacts/data_ingestion
+  crop_images_dir : artifacts/data_ingestion/crop_images
+  images_dir : artifacts/data_ingestion/images
+  webcam_img_dir : artifacts/data_ingestion/webcam_images
+  decode_img_dir : artifacts/data_ingestion/decode_images
+  unknown_faces_dir : artifacts/data_ingestion/unknown_images
+
+  
+
+
+
+# data_transformation:
+#   train_dir: artifacts/data_ingestion/train_data
+#   test_dir: artifacts/data_ingestion/test_data
+#   root_dir : artifacts/data_transformation
+#   pickle_dir: artifacts/data_transformation/pickle
+#   transformed_train_dir: artifacts/data_transformation/train_data
+#   transformed_test_dir: artifacts/data_transformation/test_data
+  
+
+
+  
+
+# model_training:
+#   transformed_train_dir: artifacts/data_transformation/train_data
+#   transformed_test_dir: artifacts/data_transformation/test_data
+#   pickle_dir: artifacts/model_training/model_pickle
+#   parameter_dir : artifacts/model_training/parameter_dir
+
+
+# model_pusher:
+#   pickle_dir: artifacts/model_training/model_pickle
+#   s3_bucket_pickle : artifacts/model_pusher/s3_bucket_pickle
+

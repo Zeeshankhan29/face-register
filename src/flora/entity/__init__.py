@@ -1,0 +1,1 @@
+from src.flora.entity.config_entity import DataIngestionConfig
