@@ -15,7 +15,7 @@ def main():
     # data_ingestion.crop_images()
     # data_ingestion.webcam_capture(15)
     # data_ingestion.decode_webcam_images()
-    data_ingestion.identify_persons()
+    data_ingestion.identify_persons('qa')
 if __name__ =='__main__':
     try:
         main()

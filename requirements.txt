@@ -13,4 +13,6 @@ dlib-19.22.99-cp310-cp310-win_amd64.whl
 face-recognition==1.3.0
 opencv-python==4.7.0.72
 mediapipe
+mysql-connector-python
+# --upgrade mysql-connector-python
 -e .

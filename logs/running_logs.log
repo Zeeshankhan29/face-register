@@ -636,3 +636,941 @@
 [2023-06-06 16:33:34,537] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
 [2023-06-06 16:33:34,538] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
 [2023-06-06 16:33:34,539] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 16:52:17,757] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 16:52:17,758] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 16:52:17,759] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 16:52:17,760] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 16:52:17,760] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 16:52:17,761] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 16:52:17,762] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 16:52:17,763] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 16:52:18,134] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 16:52:18,146] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 16:52:18,148] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 16:52:18,149] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 16:52:18,265] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 16:52:18,276] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 16:52:20,041] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 16:52:20,043] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 16:52:20,044] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 16:52:20,044] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 16:52:20,045] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 16:52:20,046] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 16:52:20,047] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 16:52:20,047] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 16:54:19,119] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 16:54:19,120] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 16:54:19,121] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 16:54:19,122] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 16:54:19,123] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 16:54:19,124] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 16:54:19,125] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 16:54:19,125] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 16:54:19,280] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 16:54:19,286] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 16:54:19,291] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 16:54:19,291] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 16:54:19,352] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 16:54:19,358] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 16:54:20,719] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 16:54:20,720] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 16:54:20,721] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 16:54:20,722] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 16:54:20,723] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 16:54:20,723] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 16:54:20,724] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 16:54:20,725] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 16:54:42,356] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 16:54:42,358] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 16:54:42,359] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 16:54:42,359] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 16:54:42,360] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 16:54:42,361] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 16:54:42,361] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 16:54:42,362] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 16:54:42,516] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 16:54:42,523] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 16:54:42,528] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 16:54:42,528] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 16:54:42,600] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 16:54:42,605] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 16:54:43,987] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 16:54:43,988] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 16:54:43,989] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 16:54:43,990] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 16:54:43,990] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 16:54:43,991] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 16:54:43,992] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 16:54:43,993] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 17:17:07,060] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 17:17:07,061] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 17:17:07,062] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 17:17:07,063] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 17:17:07,064] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 17:17:07,064] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 17:17:07,064] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 17:17:07,066] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 17:17:07,239] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 17:17:07,248] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 17:17:07,250] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 17:17:07,251] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 17:17:07,328] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 17:17:07,334] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 17:17:08,815] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 17:17:08,817] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 17:17:08,817] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 17:17:08,818] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 17:17:08,818] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 17:17:08,820] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 17:17:08,821] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 17:17:08,822] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 17:17:08,825] : [root] : [ERROR] : [[Errno 13] Permission denied: '2023-06-06.csv']
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 21, in <module>
+    main()
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 18, in main
+    data_ingestion.identify_persons()
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\src\flora\components\data_ingestion.py", line 107, in identify_persons
+    self.f = open(self.current_date + '.csv', 'a+', newline='')
+PermissionError: [Errno 13] Permission denied: '2023-06-06.csv'
+[2023-06-06 17:18:07,882] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 17:18:07,883] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 17:18:07,884] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 17:18:07,885] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 17:18:07,886] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 17:18:07,887] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 17:18:07,888] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 17:18:07,889] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 17:18:08,051] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 17:18:08,059] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 17:18:08,065] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 17:18:08,066] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 17:18:08,134] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 17:18:08,138] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 17:18:09,646] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 17:18:09,647] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 17:18:09,648] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 17:18:09,649] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 17:18:09,650] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 17:18:09,651] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 17:18:09,652] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 17:18:09,652] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 17:18:09,656] : [root] : [ERROR] : [[Errno 13] Permission denied: '2023-06-06.csv']
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 21, in <module>
+    main()
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 18, in main
+    data_ingestion.identify_persons()
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\src\flora\components\data_ingestion.py", line 107, in identify_persons
+    self.f = open(self.current_date + '.csv', 'a+', newline='')
+PermissionError: [Errno 13] Permission denied: '2023-06-06.csv'
+[2023-06-06 17:18:32,309] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 17:18:32,310] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 17:18:32,311] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 17:18:32,312] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 17:18:32,312] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 17:18:32,313] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 17:18:32,314] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 17:18:32,314] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 17:18:32,462] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 17:18:32,471] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 17:18:32,476] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 17:18:32,477] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 17:18:32,541] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 17:18:32,546] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 17:18:33,981] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 17:18:33,982] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 17:18:33,983] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 17:18:33,984] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 17:18:33,985] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 17:18:33,986] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 17:18:33,987] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 17:18:33,988] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 17:20:47,035] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 17:20:47,037] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 17:20:47,039] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 17:20:47,040] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 17:20:47,041] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 17:20:47,042] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 17:20:47,043] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 17:20:47,044] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 17:20:47,216] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 17:20:47,222] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 17:20:47,226] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 17:20:47,226] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 17:20:47,297] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 17:20:47,304] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 17:20:48,771] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 17:20:48,772] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 17:20:48,773] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 17:20:48,774] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 17:20:48,775] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 17:20:48,775] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 17:20:48,776] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 17:20:48,777] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 17:23:26,479] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 17:23:26,480] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 17:23:26,481] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 17:23:26,481] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 17:23:26,482] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 17:23:26,483] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 17:23:26,483] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 17:23:26,484] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 17:23:26,634] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 17:23:26,641] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 17:23:26,645] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 17:23:26,646] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 17:23:26,714] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 17:23:26,723] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 17:23:28,230] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 17:23:28,233] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 17:23:28,233] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 17:23:28,234] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 17:23:28,236] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 17:23:28,237] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 17:23:28,238] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 17:23:28,239] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 17:23:28,244] : [root] : [ERROR] : [[Errno 13] Permission denied: '2023-06-06.csv']
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 21, in <module>
+    main()
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 18, in main
+    data_ingestion.identify_persons()
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\src\flora\components\data_ingestion.py", line 107, in identify_persons
+    self.f = open(self.current_date + '.csv', 'a+', newline='')
+PermissionError: [Errno 13] Permission denied: '2023-06-06.csv'
+[2023-06-06 17:23:42,028] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 17:23:42,029] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 17:23:42,031] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 17:23:42,031] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 17:23:42,032] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 17:23:42,034] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 17:23:42,034] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 17:23:42,035] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 17:23:42,193] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 17:23:42,202] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 17:23:42,205] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 17:23:42,207] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 17:23:42,284] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 17:23:42,291] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 17:23:43,783] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 17:23:43,784] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 17:23:43,785] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 17:23:43,786] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 17:23:43,787] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 17:23:43,787] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 17:23:43,788] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 17:23:43,789] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 17:47:18,363] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 17:47:18,364] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 17:47:18,365] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 17:47:18,366] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 17:47:18,367] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 17:47:18,368] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 17:47:18,369] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 17:47:18,370] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 17:47:18,817] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 17:47:18,829] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 17:47:18,832] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 17:47:18,832] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 17:47:18,972] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 17:47:18,989] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 17:47:21,152] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 17:47:21,153] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 17:47:21,154] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 17:47:21,156] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 17:47:21,156] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 17:47:21,158] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 17:47:21,159] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 17:47:21,160] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 18:54:36,122] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 18:54:36,125] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 18:54:36,126] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 18:54:36,127] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 18:54:36,128] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 18:54:36,129] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 18:54:36,129] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 18:54:36,130] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 18:54:36,677] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 18:54:36,690] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 18:54:36,692] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 18:54:36,692] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 18:54:36,835] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 18:54:36,851] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 18:54:41,846] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 18:54:41,847] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 18:54:41,849] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 18:54:41,850] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 18:54:41,850] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 18:54:41,851] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 18:54:41,853] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 18:54:41,854] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 18:54:41,929] : [root] : [ERROR] : [Authentication plugin 'caching_sha2_password' is not supported]
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\src\flora\components\data_ingestion.py", line 278, in datapusher
+    mydb=cn.connect(host=HOST,user=USER,passwd=PASSWORD)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\__init__.py", line 179, in connect
+    return MySQLConnection(*args, **kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 95, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\abstracts.py", line 716, in connect
+    self._open_connection()
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 208, in _open_connection
+    self._do_auth(self._user, self._password,
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 137, in _do_auth
+    packet = self._protocol.make_auth(
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\protocol.py", line 99, in make_auth
+    packet += self._auth_response(client_flags, username, password,
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\protocol.py", line 58, in _auth_response
+    auth = get_auth_plugin(auth_plugin)(
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\authentication.py", line 190, in get_auth_plugin
+    raise errors.NotSupportedError(
+mysql.connector.errors.NotSupportedError: Authentication plugin 'caching_sha2_password' is not supported
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 22, in <module>
+    main()
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 19, in main
+    data_ingestion.datapusher('local')
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\src\flora\components\data_ingestion.py", line 285, in datapusher
+    mydb = cn.connect(host=HOST, user=USER, passwd=PASSWORD)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\__init__.py", line 179, in connect
+    return MySQLConnection(*args, **kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 95, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\abstracts.py", line 716, in connect
+    self._open_connection()
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 208, in _open_connection
+    self._do_auth(self._user, self._password,
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 137, in _do_auth
+    packet = self._protocol.make_auth(
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\protocol.py", line 99, in make_auth
+    packet += self._auth_response(client_flags, username, password,
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\protocol.py", line 58, in _auth_response
+    auth = get_auth_plugin(auth_plugin)(
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\authentication.py", line 190, in get_auth_plugin
+    raise errors.NotSupportedError(
+mysql.connector.errors.NotSupportedError: Authentication plugin 'caching_sha2_password' is not supported
+[2023-06-06 18:55:25,851] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 18:55:25,852] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 18:55:25,853] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 18:55:25,854] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 18:55:25,854] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 18:55:25,855] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 18:55:25,857] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 18:55:25,858] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 18:55:26,015] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 18:55:26,023] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 18:55:26,025] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 18:55:26,026] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 18:55:26,097] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 18:55:26,100] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 18:55:28,112] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 18:55:28,113] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 18:55:28,114] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 18:55:28,114] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 18:55:28,115] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 18:55:28,116] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 18:55:28,117] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 18:55:28,117] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 18:55:28,144] : [root] : [ERROR] : [Authentication plugin 'caching_sha2_password' is not supported]
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\src\flora\components\data_ingestion.py", line 278, in datapusher
+    mydb=cn.connect(host=HOST,user=USER,passwd=PASSWORD)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\__init__.py", line 179, in connect
+    return MySQLConnection(*args, **kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 95, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\abstracts.py", line 716, in connect
+    self._open_connection()
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 208, in _open_connection
+    self._do_auth(self._user, self._password,
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 137, in _do_auth
+    packet = self._protocol.make_auth(
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\protocol.py", line 99, in make_auth
+    packet += self._auth_response(client_flags, username, password,
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\protocol.py", line 58, in _auth_response
+    auth = get_auth_plugin(auth_plugin)(
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\authentication.py", line 190, in get_auth_plugin
+    raise errors.NotSupportedError(
+mysql.connector.errors.NotSupportedError: Authentication plugin 'caching_sha2_password' is not supported
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 22, in <module>
+    main()
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 19, in main
+    data_ingestion.datapusher('local')
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\src\flora\components\data_ingestion.py", line 285, in datapusher
+    mydb = cn.connect(host=HOST, user=USER, passwd=PASSWORD)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\__init__.py", line 179, in connect
+    return MySQLConnection(*args, **kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 95, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\abstracts.py", line 716, in connect
+    self._open_connection()
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 208, in _open_connection
+    self._do_auth(self._user, self._password,
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 137, in _do_auth
+    packet = self._protocol.make_auth(
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\protocol.py", line 99, in make_auth
+    packet += self._auth_response(client_flags, username, password,
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\protocol.py", line 58, in _auth_response
+    auth = get_auth_plugin(auth_plugin)(
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\authentication.py", line 190, in get_auth_plugin
+    raise errors.NotSupportedError(
+mysql.connector.errors.NotSupportedError: Authentication plugin 'caching_sha2_password' is not supported
+[2023-06-06 18:57:16,751] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 18:57:16,752] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 18:57:16,752] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 18:57:16,753] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 18:57:16,754] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 18:57:16,755] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 18:57:16,755] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 18:57:16,756] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 18:57:16,947] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 18:57:16,956] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 18:57:16,959] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 18:57:16,959] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 18:57:17,040] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 18:57:17,047] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 18:57:19,715] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 18:57:19,717] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 18:57:19,718] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 18:57:19,718] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 18:57:19,719] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 18:57:19,720] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 18:57:19,721] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 18:57:19,722] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 18:57:19,749] : [root] : [ERROR] : [Authentication plugin 'caching_sha2_password' is not supported]
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\src\flora\components\data_ingestion.py", line 278, in datapusher
+    mydb=cn.connect(host=HOST,user=USER,passwd=PASSWORD)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\__init__.py", line 179, in connect
+    return MySQLConnection(*args, **kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 95, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\abstracts.py", line 716, in connect
+    self._open_connection()
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 208, in _open_connection
+    self._do_auth(self._user, self._password,
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 137, in _do_auth
+    packet = self._protocol.make_auth(
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\protocol.py", line 99, in make_auth
+    packet += self._auth_response(client_flags, username, password,
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\protocol.py", line 58, in _auth_response
+    auth = get_auth_plugin(auth_plugin)(
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\authentication.py", line 190, in get_auth_plugin
+    raise errors.NotSupportedError(
+mysql.connector.errors.NotSupportedError: Authentication plugin 'caching_sha2_password' is not supported
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 22, in <module>
+    main()
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 19, in main
+    data_ingestion.datapusher('local')
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\src\flora\components\data_ingestion.py", line 285, in datapusher
+    mydb = cn.connect(host=HOST, user=USER, passwd=PASSWORD)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\__init__.py", line 179, in connect
+    return MySQLConnection(*args, **kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 95, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\abstracts.py", line 716, in connect
+    self._open_connection()
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 208, in _open_connection
+    self._do_auth(self._user, self._password,
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection.py", line 137, in _do_auth
+    packet = self._protocol.make_auth(
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\protocol.py", line 99, in make_auth
+    packet += self._auth_response(client_flags, username, password,
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\protocol.py", line 58, in _auth_response
+    auth = get_auth_plugin(auth_plugin)(
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\authentication.py", line 190, in get_auth_plugin
+    raise errors.NotSupportedError(
+mysql.connector.errors.NotSupportedError: Authentication plugin 'caching_sha2_password' is not supported
+[2023-06-06 18:58:14,899] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 18:58:14,901] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 18:58:14,901] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 18:58:14,902] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 18:58:14,902] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 18:58:14,903] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 18:58:14,904] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 18:58:14,904] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 18:58:15,078] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 18:58:15,085] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 18:58:15,089] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 18:58:15,089] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 18:58:15,167] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 18:58:15,172] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 18:58:18,027] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 18:58:18,028] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 18:58:18,029] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 18:58:18,031] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 18:58:18,032] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 18:58:18,033] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 18:58:18,034] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 18:58:18,036] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 18:59:20,998] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 18:59:20,999] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 18:59:21,000] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 18:59:21,001] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 18:59:21,002] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 18:59:21,003] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 18:59:21,005] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 18:59:21,006] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 18:59:21,157] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 18:59:21,166] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 18:59:21,169] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 18:59:21,169] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 18:59:21,235] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 18:59:21,241] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 18:59:23,355] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 18:59:23,356] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 18:59:23,356] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 18:59:23,357] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 18:59:23,358] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 18:59:23,358] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 18:59:23,359] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 18:59:23,359] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 19:03:21,435] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 19:03:21,436] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 19:03:21,436] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 19:03:21,436] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 19:03:21,436] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 19:03:21,438] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 19:03:21,438] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 19:03:21,439] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 19:03:21,574] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 19:03:21,582] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 19:03:21,588] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 19:03:21,588] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 19:03:21,658] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 19:03:21,662] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 19:03:23,735] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 19:03:23,736] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 19:03:23,737] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 19:03:23,738] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 19:03:23,739] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 19:03:23,739] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 19:03:23,740] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 19:03:23,741] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 19:03:29,110] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 19:03:29,111] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 19:03:29,112] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 19:03:29,112] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 19:03:29,113] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 19:03:29,113] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 19:03:29,114] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 19:03:29,114] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 19:03:29,291] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 19:03:29,301] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 19:03:29,306] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 19:03:29,307] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 19:03:29,381] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 19:03:29,387] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 19:03:31,476] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 19:03:31,478] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 19:03:31,479] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 19:03:31,480] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 19:03:31,480] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 19:03:31,481] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 19:03:31,482] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 19:03:31,483] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 19:03:40,933] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 19:03:40,935] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 19:03:40,936] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 19:03:40,936] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 19:03:40,937] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 19:03:40,938] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 19:03:40,939] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 19:03:40,940] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 19:03:41,114] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 19:03:41,122] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 19:03:41,128] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 19:03:41,129] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 19:03:41,202] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 19:03:41,209] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 19:03:43,310] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 19:03:43,312] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 19:03:43,313] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 19:03:43,313] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 19:03:43,314] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 19:03:43,315] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 19:03:43,316] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 19:03:43,316] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 19:03:47,113] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 19:03:47,114] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 19:03:47,115] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 19:03:47,116] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 19:03:47,116] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 19:03:47,117] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 19:03:47,118] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 19:03:47,118] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-06 19:03:47,272] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-06 19:03:47,279] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 19:03:47,285] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-06 19:03:47,285] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-06 19:03:47,355] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-06 19:03:47,361] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-06 19:03:49,421] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-06 19:03:49,422] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-06 19:03:49,423] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-06 19:03:49,424] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-06 19:03:49,424] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-06 19:03:49,425] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-06 19:03:49,426] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-06 19:03:49,427] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:18:18,009] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:18:18,010] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:18:18,011] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:18:18,012] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:18:18,013] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:18:18,014] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:18:18,016] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:18:18,017] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:18:18,739] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\lib\site-packages\matplotlib\mpl-data]
+[2023-06-07 10:18:18,752] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:18:18,754] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-07 10:18:18,755] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-07 10:18:18,938] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:18:18,957] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-07 10:18:40,489] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:18:40,490] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:18:40,491] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:18:40,492] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:18:40,493] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:18:40,494] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:18:40,495] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:18:40,495] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:18:41,171] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-07 10:18:41,185] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:18:41,189] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-07 10:18:41,190] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-07 10:18:41,355] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:18:41,360] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-07 10:18:46,510] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:18:46,511] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:18:46,512] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:18:46,512] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:18:46,513] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:18:46,515] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:18:46,516] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:18:46,517] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:19:46,803] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:19:46,804] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:19:46,804] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:19:46,806] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:19:46,807] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:19:46,808] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:19:46,809] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:19:46,811] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:19:47,073] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-07 10:19:47,080] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:19:47,084] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-07 10:19:47,085] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-07 10:19:47,153] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:19:47,157] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-07 10:19:50,105] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:19:50,106] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:19:50,107] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:19:50,108] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:19:50,108] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:19:50,109] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:19:50,110] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:19:50,110] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:20:49,539] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:20:49,540] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:20:49,541] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:20:49,541] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:20:49,542] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:20:49,542] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:20:49,543] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:20:49,544] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:20:49,698] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-07 10:20:49,704] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:20:49,710] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-07 10:20:49,711] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-07 10:20:49,777] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:20:49,781] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-07 10:20:51,809] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:20:51,810] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:20:51,811] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:20:51,812] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:20:51,813] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:20:51,813] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:20:51,814] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:20:51,815] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:22:13,891] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:22:13,892] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:22:13,893] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:22:13,893] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:22:13,894] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:22:13,895] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:22:13,896] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:22:13,897] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:22:14,048] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-07 10:22:14,054] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:22:14,058] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-07 10:22:14,058] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-07 10:22:14,127] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:22:14,132] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-07 10:22:16,290] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:22:16,292] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:22:16,293] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:22:16,294] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:22:16,296] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:22:16,297] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:22:16,297] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:22:16,298] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:27:50,473] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:27:50,474] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:27:50,474] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:27:50,475] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:27:50,476] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:27:50,476] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:27:50,477] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:27:50,478] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:27:50,650] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-07 10:27:50,658] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:27:50,663] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-07 10:27:50,663] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-07 10:27:50,731] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:27:50,736] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-07 10:27:53,012] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:27:53,014] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:27:53,015] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:27:53,015] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:27:53,016] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:27:53,018] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:27:53,019] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:27:53,020] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:27:58,168] : [root] : [ERROR] : [1049 (42000): Unknown database 'facecounter']
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection_cext.py", line 611, in cmd_query
+    self._cmysql.query(
+_mysql_connector.MySQLInterfaceError: Unknown database 'facecounter'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 22, in <module>
+    main()
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 18, in main
+    data_ingestion.identify_persons()
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\src\flora\components\data_ingestion.py", line 273, in identify_persons
+    cursor.execute('use facecounter')
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\cursor_cext.py", line 330, in execute
+    result = self._cnx.cmd_query(
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection_cext.py", line 619, in cmd_query
+    raise get_mysql_exception(
+mysql.connector.errors.ProgrammingError: 1049 (42000): Unknown database 'facecounter'
+[2023-06-07 10:29:05,854] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:29:05,855] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:29:05,856] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:29:05,856] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:29:05,857] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:29:05,857] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:29:05,858] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:29:05,859] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:29:06,034] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-07 10:29:06,041] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:29:06,045] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-07 10:29:06,046] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-07 10:29:06,119] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:29:06,125] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-07 10:29:08,445] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:29:08,446] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:29:08,447] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:29:08,448] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:29:08,449] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:29:08,450] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:29:08,450] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:29:08,451] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:29:22,865] : [root] : [ERROR] : [tuple expected at most 1 argument, got 3]
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection_cext.py", line 611, in cmd_query
+    self._cmysql.query(
+_mysql_connector.MySQLInterfaceError: Can't create database 'facecounter'; database exists
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\src\flora\components\data_ingestion.py", line 248, in identify_persons
+    cursor.execute('create database facecounter')
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\cursor_cext.py", line 330, in execute
+    result = self._cnx.cmd_query(
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection_cext.py", line 619, in cmd_query
+    raise get_mysql_exception(
+mysql.connector.errors.DatabaseError: 1007 (HY000): Can't create database 'facecounter'; database exists
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 22, in <module>
+    main()
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 18, in main
+    data_ingestion.identify_persons()
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\src\flora\components\data_ingestion.py", line 256, in identify_persons
+    cursor.execute("insert into counter_data values (%s,%s,%s)" ,tuple(unknown_face_name,current_date,current_time))
+TypeError: tuple expected at most 1 argument, got 3
+[2023-06-07 10:31:50,453] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:31:50,454] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:31:50,455] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:31:50,455] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:31:50,456] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:31:50,457] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:31:50,457] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:31:50,458] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:31:50,629] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-07 10:31:50,638] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:31:50,642] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-07 10:31:50,643] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-07 10:31:50,709] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:31:50,713] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-07 10:31:52,816] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:31:52,818] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:31:52,819] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:31:52,820] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:31:52,820] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:31:52,821] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:31:52,822] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:31:52,822] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:37:19,661] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:37:19,662] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:37:19,662] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:37:19,663] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:37:19,663] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:37:19,664] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:37:19,665] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:37:19,665] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:37:20,133] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-07 10:37:20,145] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:37:20,148] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-07 10:37:20,148] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-07 10:37:20,279] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:37:20,292] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-07 10:37:24,874] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:37:24,875] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:37:24,876] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:37:24,877] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:37:24,878] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:37:24,878] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:37:24,879] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:37:24,880] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:38:03,064] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:38:03,065] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:38:03,067] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:38:03,068] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:38:03,068] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:38:03,069] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:38:03,070] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:38:03,072] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:38:03,242] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-07 10:38:03,250] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:38:03,255] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-07 10:38:03,255] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-07 10:38:03,327] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:38:03,333] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-07 10:38:05,484] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:38:05,485] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:38:05,486] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:38:05,487] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:38:05,487] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:38:05,488] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:38:05,488] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:38:05,489] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:39:12,560] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:39:12,562] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:39:12,562] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:39:12,563] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:39:12,564] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:39:12,564] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:39:12,565] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:39:12,565] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:39:12,724] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-07 10:39:12,733] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:39:12,736] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-07 10:39:12,736] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-07 10:39:12,806] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:39:12,811] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-07 10:39:14,936] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:39:14,938] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:39:14,939] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:39:14,939] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:39:14,940] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:39:14,940] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:39:14,941] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:39:14,942] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:39:24,255] : [root] : [ERROR] : [2003 (HY000): Can't connect to MySQL server on '192.168.1.191:3306' (10061)]
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection_cext.py", line 291, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+_mysql_connector.MySQLInterfaceError: Can't connect to MySQL server on '192.168.1.191:3306' (10061)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\src\flora\components\data_ingestion.py", line 281, in identify_persons
+    mydb=cn.connect(host=HOST,user=USER,passwd=PASSWORD)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\pooling.py", line 293, in connect
+    return CMySQLConnection(*args, **kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection_cext.py", line 120, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\abstracts.py", line 1181, in connect
+    self._open_connection()
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection_cext.py", line 296, in _open_connection
+    raise get_mysql_exception(
+mysql.connector.errors.DatabaseError: 2003 (HY000): Can't connect to MySQL server on '192.168.1.191:3306' (10061)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection_cext.py", line 291, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+_mysql_connector.MySQLInterfaceError: Can't connect to MySQL server on '192.168.1.191:3306' (10061)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 21, in <module>
+    main()
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\main.py", line 18, in main
+    data_ingestion.identify_persons('dev')
+  File "C:\Users\Zeeshan.khan\vscode_projects\final\src\flora\components\data_ingestion.py", line 288, in identify_persons
+    mydb = cn.connect(host=HOST, user=USER, passwd=PASSWORD)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\pooling.py", line 293, in connect
+    return CMySQLConnection(*args, **kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection_cext.py", line 120, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\abstracts.py", line 1181, in connect
+    self._open_connection()
+  File "C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\mysql\connector\connection_cext.py", line 296, in _open_connection
+    raise get_mysql_exception(
+mysql.connector.errors.DatabaseError: 2003 (HY000): Can't connect to MySQL server on '192.168.1.191:3306' (10061)
+[2023-06-07 10:40:27,045] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:40:27,047] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:40:27,048] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:40:27,048] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:40:27,049] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:40:27,050] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:40:27,051] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:40:27,052] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]
+[2023-06-07 10:40:27,222] : [matplotlib] : [DEBUG] : [matplotlib data path: C:\Users\Zeeshan.khan\AppData\Local\anaconda3\envs\flora\lib\site-packages\matplotlib\mpl-data]
+[2023-06-07 10:40:27,231] : [matplotlib] : [DEBUG] : [CONFIGDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:40:27,235] : [matplotlib] : [DEBUG] : [interactive is False]
+[2023-06-07 10:40:27,237] : [matplotlib] : [DEBUG] : [platform is win32]
+[2023-06-07 10:40:27,308] : [matplotlib] : [DEBUG] : [CACHEDIR=C:\Users\Zeeshan.khan\.matplotlib]
+[2023-06-07 10:40:27,313] : [matplotlib.font_manager] : [DEBUG] : [Using fontManager instance from C:\Users\Zeeshan.khan\.matplotlib\fontlist-v330.json]
+[2023-06-07 10:40:29,454] : [root] : [INFO] : [yaml file: configs\config.yaml loaded successfully]
+[2023-06-07 10:40:29,456] : [root] : [INFO] : [created directory at: artifacts]
+[2023-06-07 10:40:29,457] : [root] : [INFO] : [created directory at: artifacts/data_ingestion]
+[2023-06-07 10:40:29,457] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/crop_images]
+[2023-06-07 10:40:29,458] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/images]
+[2023-06-07 10:40:29,459] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/webcam_images]
+[2023-06-07 10:40:29,460] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/decode_images]
+[2023-06-07 10:40:29,461] : [root] : [INFO] : [created directory at: artifacts/data_ingestion/unknown_images]

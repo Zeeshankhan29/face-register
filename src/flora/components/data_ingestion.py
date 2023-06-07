@@ -10,6 +10,9 @@ import uuid
 from datetime import datetime
 import numpy as np
 import csv
+import mysql.connector as cn
+from dotenv import dotenv_values
+import pandas as pd
 
 
 
@@ -95,7 +98,7 @@ class DataIngestion:
                 file.write(converted_string)
 
 
-    def identify_persons(self):
+    def identify_persons(self,ENV:str):
         image_dir = Path(self.dataingestion_config.images_dir)
         unknown_dir = Path(self.dataingestion_config.unknown_faces_dir)
         image_path = os.path.join(self.curr_dir, image_dir)
@@ -226,7 +229,33 @@ class DataIngestion:
                         tracked_persons[personid]["timeout_counter"] = 0  # Reset timeout counter
                         current_time = self.now.strftime("%H:%M:%S")
                         current_date  = self.now.strftime("%d/%m/%Y")
+                        #Storing data into csv file
                         self.Imwriter.writerow([personid,current_date, current_time])
+                        
+                        
+                        # # Loading the environment file 
+                        env_file = f".env_{ENV.lower()}"
+
+                        # passing env_file variable
+                        config = dotenv_values(env_file)
+
+                        # Retrieve the values
+                        HOST = config.get("HOST")
+                        USER = config.get("USER")
+                        PASSWORD = config.get("PASSWORD")
+                        try:
+                            mydb=cn.connect(host=HOST,user=USER,passwd=PASSWORD)
+                            cursor=mydb.cursor()
+                            cursor.execute('create database facecounter')
+                            cursor.execute('use facecounter')
+                            cursor.execute('create table counter_data(UUID varchar(100),Date1 varchar(100), Timestamp1 varchar(100))')
+                            mydb.commit()
+                        except:
+                            mydb = cn.connect(host=HOST, user=USER, passwd=PASSWORD)
+                            cursor = mydb.cursor()
+                            cursor.execute('use facecounter')
+                            cursor.execute("insert into counter_data values (%s,%s,%s)" ,(unknown_face_name, current_date, current_time))
+                            mydb.commit()
 
             # Log the unknown person's ID and timestamp
             for unknown_face_name, count in known_face_counts.items():
@@ -235,7 +264,33 @@ class DataIngestion:
                         persons.remove(unknown_face_name)
                         current_time = self.now.strftime("%H:%M:%S")
                         current_date  = self.now.strftime("%d/%m/%Y")
+                        #Storing data into csv file
                         self.Imwriter.writerow([unknown_face_name,current_date, current_time])
+
+                        # # Loading the environment file 
+                        env_file = f".env_{ENV.lower()}"
+
+                        # passing env_file variable
+                        config = dotenv_values(env_file)
+
+                        # Retrieve the values
+                        HOST = config.get("HOST")
+                        USER = config.get("USER")
+                        PASSWORD = config.get("PASSWORD")
+                        try:
+                            mydb=cn.connect(host=HOST,user=USER,passwd=PASSWORD)
+                            cursor=mydb.cursor()
+                            cursor.execute('create database facecounter')
+                            cursor.execute('use facecounter')
+                            cursor.execute('create table counter_data(UUID varchar(100),Date1 varchar(100), Timestamp1 varchar(100))')
+                            mydb.commit()
+                        except:
+                            mydb = cn.connect(host=HOST, user=USER, passwd=PASSWORD)
+                            cursor = mydb.cursor()
+                            cursor.execute('use facecounter')
+                            cursor.execute("insert into counter_data values (%s,%s,%s)" ,(unknown_face_name, current_date, current_time))
+                            mydb.commit()
+
 
             # Add newly detected persons to the tracked_persons dictionary
             for face_name in face_names:
@@ -254,7 +309,37 @@ class DataIngestion:
         cv2.destroyAllWindows()
         self.f.close()
 
+    # def datapusher(self,ENV:str):
+        
 
+    #     # # # specify the environment
+    #     # ENV = 'LOCAL'
+
+    #     # # Loading the environment file 
+    #     env_file = f".env_{ENV.lower()}"
+
+    #     # passing env_file variable
+    #     config = dotenv_values(env_file)
+
+    #     # Retrieve the values
+    #     HOST = config.get("HOST")
+    #     USER = config.get("USER")
+    #     PASSWORD = config.get("PASSWORD")
+    #     df = pd.read_csv('2023-06-07.csv')
+    #     try:
+    #         mydb=cn.connect(host=HOST,user=USER,passwd=PASSWORD)
+    #         cursor=mydb.cursor()
+    #         cursor.execute('create database facecounter')
+    #         cursor.execute('use facecounter')
+    #         cursor.execute('create table counter_data(UUID varchar(100),Date1 varchar(100), Timestamp1 varchar(100))')
+    #         mydb.commit()
+    #     except:
+    #         mydb = cn.connect(host=HOST, user=USER, passwd=PASSWORD)
+    #         cursor = mydb.cursor()
+    #         cursor.execute('use facecounter')
+    #         for i,row in df.iterrows():
+    #             cursor.execute("insert into counter_data values (%s,%s,%s)" ,tuple(row))
+    #         mydb.commit()
 
 
 
