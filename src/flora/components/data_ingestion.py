@@ -13,6 +13,8 @@ import csv
 import mysql.connector as cn
 from dotenv import dotenv_values
 import pandas as pd
+from deepface import DeepFace
+from src.flora import logger
 
 
 
@@ -98,26 +100,28 @@ class DataIngestion:
                 file.write(converted_string)
 
 
-    def identify_persons(self,ENV:str):
+
+    def identify_persons1(self, ENV: str):
         image_dir = Path(self.dataingestion_config.images_dir)
+        image_dir1 = str(image_dir)
         unknown_dir = Path(self.dataingestion_config.unknown_faces_dir)
-        image_path = os.path.join(self.curr_dir, image_dir)
         Unknown_path = os.path.join(self.curr_dir, unknown_dir)
+        image_path = os.path.join(self.curr_dir, image_dir)
         files = os.listdir(image_path)
-        # files = files.sort()
+        
         self.now = datetime.now()
         self.current_date = self.now.strftime("%Y-%m-%d")
         self.f = open(self.current_date + '.csv', 'a+', newline='')
         self.Imwriter = csv.writer(self.f)
 
         if self.f.tell() == 0:
-            self.Imwriter.writerow(['UUID','Date', 'Timestamp'])
-        
-        
-        
+            self.Imwriter.writerow(['UUID', 'Date', 'Timestamp'])
+            logger.info(f'Creating an empty CSV file with headers: UUID, Date, Timestamp')
+
         known_face_encodings = []
         known_face_names = []
         known_face_counts = {}  # Store the counts of known faces
+
         for file in files:
             single_file = os.path.join(image_dir, file)
             print(single_file)
@@ -125,7 +129,10 @@ class DataIngestion:
             filename = filename.split('.')[0]
 
             file = face_recognition.load_image_file(single_file)
+            logger.info('Loading Face')
             encodings = face_recognition.face_encodings(file)
+            logger.info('Face Embedding captured')
+            
             if len(encodings) > 0:
                 encoding = encodings[0]
                 known_face_encodings.append(encoding)
@@ -136,6 +143,7 @@ class DataIngestion:
 
         print(known_face_encodings)
         print(known_face_names)
+        known_face_encodings1 = str(known_face_encodings)
 
         persons = known_face_names.copy()
         tracked_persons = {}  # Store the tracked persons' information
@@ -176,8 +184,6 @@ class DataIngestion:
                 best_match_index = np.argmin(face_distances)
                 if matches[best_match_index]:
                     name = known_face_names[best_match_index]
-                    if name in tracked_persons:
-                        tracked_persons[name]["timeout_counter"] = 0  # Reset timeout counter
                 else:
                     # Generate a unique ID for the unknown person
                     unknown_person_id = str(uuid.uuid4())
@@ -191,6 +197,7 @@ class DataIngestion:
                         unknown_face_image = cv2.resize(frame, (160, 160))  # Resize for consistency
                         cv2.imwrite(f"{image_path}/{unknown_face_name}.jpg", unknown_face_image)
                         cv2.imwrite(f"{Unknown_path}/{unknown_face_name}.jpg", unknown_face_image)
+                        logger.info('Saving the Unknown images')
 
                         # Update the known face data
                         known_face_encodings.append(unknown_face_encoding)
@@ -201,6 +208,8 @@ class DataIngestion:
                     else:
                         # Existing unknown face reappears
                         known_face_counts[unknown_face_name] += 1
+
+                    name = unknown_face_name
 
                 face_names.append(name)
 
@@ -218,7 +227,7 @@ class DataIngestion:
                 # Draw a label with a name below the face
                 cv2.rectangle(frame, (left, bottom - 35), (right, bottom), (0, 0, 255), cv2.FILLED)
                 font = cv2.FONT_HERSHEY_DUPLEX
-                cv2.putText(frame, f'{name}', (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
+                cv2.putText(frame, f'ID: {name}', (left + 6, bottom - 6), font, 1.0, (255, 255, 255), 1)
 
             # Track persons and update timeout counter
             for personid in tracked_persons:
@@ -227,80 +236,80 @@ class DataIngestion:
                     if tracked_persons[personid]["timeout_counter"] >= timeout_threshold:
                         # Person is considered out of the frame
                         tracked_persons[personid]["timeout_counter"] = 0  # Reset timeout counter
-                        current_time = self.now.strftime("%H:%M:%S")
-                        current_date  = self.now.strftime("%d/%m/%Y")
-                        #Storing data into csv file
-                        self.Imwriter.writerow([personid,current_date, current_time])
-                        
-                        
-                        # # Loading the environment file 
-                        env_file = f".env_{ENV.lower()}"
 
-                        # passing env_file variable
-                        config = dotenv_values(env_file)
+                        for unknown_face_name in known_face_names:
+                            if unknown_face_name.startswith("U_") and unknown_face_name in persons:
+                                persons.remove(unknown_face_name)
+                                current_time = self.now.strftime("%H:%M:%S")
+                                current_date = self.now.strftime("%d/%m/%Y")
+                                print(f'Face identified: {unknown_face_name}')
+                                self.Imwriter.writerow([unknown_face_name, current_date, current_time])
+                                logger.info('Dumping the captured data into the CSV file')
 
-                        # Retrieve the values
-                        HOST = config.get("HOST")
-                        USER = config.get("USER")
-                        PASSWORD = config.get("PASSWORD")
-                        try:
-                            mydb=cn.connect(host=HOST,user=USER,passwd=PASSWORD)
-                            cursor=mydb.cursor()
-                            cursor.execute('create database facecounter')
-                            cursor.execute('use facecounter')
-                            cursor.execute('create table counter_data(UUID varchar(100),Date1 varchar(100), Timestamp1 varchar(100))')
-                            mydb.commit()
-                        except:
-                            mydb = cn.connect(host=HOST, user=USER, passwd=PASSWORD)
-                            cursor = mydb.cursor()
-                            cursor.execute('use facecounter')
-                            cursor.execute("insert into counter_data values (%s,%s,%s)" ,(unknown_face_name, current_date, current_time))
-                            mydb.commit()
+            # Check if new unknown faces are detected
+            new_unknown_face_names = [name for name in face_names if name.startswith("U_") and name not in previous_unknown_face_names]
 
-            # Log the unknown person's ID and timestamp
-            for unknown_face_name, count in known_face_counts.items():
-                if unknown_face_name.startswith("U_"):
-                    if unknown_face_name in persons:
-                        persons.remove(unknown_face_name)
-                        current_time = self.now.strftime("%H:%M:%S")
-                        current_date  = self.now.strftime("%d/%m/%Y")
-                        #Storing data into csv file
-                        self.Imwriter.writerow([unknown_face_name,current_date, current_time])
+            for unknown_face_name in new_unknown_face_names:
+                persons.append(unknown_face_name)
+                current_time = self.now.strftime("%H:%M:%S")
+                current_date = self.now.strftime("%d/%m/%Y")
+                print(f'New face identified: {unknown_face_name}')
+                self.Imwriter.writerow([unknown_face_name, current_date, current_time])
+                logger.info('Dumping the captured data into the CSV file')
+                # Loading the environment file 
+                env_file = f".env_{ENV.lower()}"
 
-                        # # Loading the environment file 
-                        env_file = f".env_{ENV.lower()}"
+                # passing env_file variable
+                config = dotenv_values(env_file)
 
-                        # passing env_file variable
-                        config = dotenv_values(env_file)
+                # Retrieve the values
+                HOST = config.get("HOST")
+                USER = config.get("USER")
+                PASSWORD = config.get("PASSWORD")
+                try:
+                    logger.info('Connecting with Mysql database faceregister')
+                    mydb=cn.connect(host=HOST,user=USER,passwd=PASSWORD)
+                    cursor=mydb.cursor()
+                    cursor.execute('create database faceregister')
+                    cursor.execute('use faceregister')
+                    logger.info('Creating the table attendance')
+                    cursor.execute('create table attendance(id int auto_increment primary key ,UUID varchar(100),DateTime varchar(100),Image_Path varchar(500),Embeddings varchar(50000),status int DEFAULT 1)')
+                    cursor.execute('create table summary(uuid VARCHAR(500) PRIMARY KEY, `count` INT, DateTime1 DATETIME DEFAULT NOW())')
+                    cursor.execute('create table registration (uuid VARCHAR(500) PRIMARY KEY, DateTime1 DATETIME DEFAULT NOW())')
+                    # # Create the summary trigger
+                    # logger.info('Creating the trigger summary')
+                    # cursor.execute('''
+                    #     DELIMITER &&
+                    #     CREATE TRIGGER summary
+                    #     AFTER INSERT ON Attendance
+                    #     FOR EACH ROW
+                    #     BEGIN
+                    #         INSERT INTO Summary (uuid, count)
+                    #         SELECT NEW.UUID, COUNT(*)
+                    #         FROM counter_data
+                    #         WHERE UUID = NEW.UUID
+                    #         GROUP BY UUID
+                    #         ON DUPLICATE KEY UPDATE `count` = VALUES(`count`);
+                    #     END &&
+                    #     DELIMITER ;
+                    # ''')
 
-                        # Retrieve the values
-                        HOST = config.get("HOST")
-                        USER = config.get("USER")
-                        PASSWORD = config.get("PASSWORD")
-                        try:
-                            mydb=cn.connect(host=HOST,user=USER,passwd=PASSWORD)
-                            cursor=mydb.cursor()
-                            cursor.execute('create database facecounter')
-                            cursor.execute('use facecounter')
-                            cursor.execute('create table counter_data(UUID varchar(100),Date1 varchar(100), Timestamp1 varchar(100))')
-                            mydb.commit()
-                        except:
-                            mydb = cn.connect(host=HOST, user=USER, passwd=PASSWORD)
-                            cursor = mydb.cursor()
-                            cursor.execute('use facecounter')
-                            cursor.execute("insert into counter_data values (%s,%s,%s)" ,(unknown_face_name, current_date, current_time))
-                            mydb.commit()
+                    mydb.commit()
+                except:
+                    mydb = cn.connect(host=HOST, user=USER, passwd=PASSWORD)
+                    cursor = mydb.cursor()
+                    cursor.execute('use faceregister')
+                    logger.info('Creating the table attendance')
+                    logger.info('Inserting the data into attendance table')
+                    cursor.execute("insert into attendance(UUID, DateTime, Image_Path, Embeddings) values (%s, sysdate(), %s, %s)", (unknown_face_name, image_dir1, known_face_encodings1))
+                    mydb.commit()
 
-
-            # Add newly detected persons to the tracked_persons dictionary
-            for face_name in face_names:
-                if face_name not in tracked_persons and face_name not in persons:
-                    tracked_persons[face_name] = {"timeout_counter": 0}
+            previous_unknown_face_names = [name for name in face_names if name.startswith("U_")]
 
             # Display the resulting image
             cv2.imshow('Video', frame)
 
-            # Hit 'q' on the keyboard to quit!
+            # Hit 'q' on the keyboard to quit
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
 
@@ -308,39 +317,3 @@ class DataIngestion:
         video_capture.release()
         cv2.destroyAllWindows()
         self.f.close()
-
-    # def datapusher(self,ENV:str):
-        
-
-    #     # # # specify the environment
-    #     # ENV = 'LOCAL'
-
-    #     # # Loading the environment file 
-    #     env_file = f".env_{ENV.lower()}"
-
-    #     # passing env_file variable
-    #     config = dotenv_values(env_file)
-
-    #     # Retrieve the values
-    #     HOST = config.get("HOST")
-    #     USER = config.get("USER")
-    #     PASSWORD = config.get("PASSWORD")
-    #     df = pd.read_csv('2023-06-07.csv')
-    #     try:
-    #         mydb=cn.connect(host=HOST,user=USER,passwd=PASSWORD)
-    #         cursor=mydb.cursor()
-    #         cursor.execute('create database facecounter')
-    #         cursor.execute('use facecounter')
-    #         cursor.execute('create table counter_data(UUID varchar(100),Date1 varchar(100), Timestamp1 varchar(100))')
-    #         mydb.commit()
-    #     except:
-    #         mydb = cn.connect(host=HOST, user=USER, passwd=PASSWORD)
-    #         cursor = mydb.cursor()
-    #         cursor.execute('use facecounter')
-    #         for i,row in df.iterrows():
-    #             cursor.execute("insert into counter_data values (%s,%s,%s)" ,tuple(row))
-    #         mydb.commit()
-
-
-
-            

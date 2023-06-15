@@ -14,5 +14,6 @@ face-recognition==1.3.0
 opencv-python==4.7.0.72
 mediapipe
 mysql-connector-python
+deepface
 # --upgrade mysql-connector-python
 -e .

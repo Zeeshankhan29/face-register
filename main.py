@@ -2,6 +2,7 @@ from src.flora.config import Configuration
 from src.flora.components import DataIngestion
 from src.flora import logger
 import face_recognition
+import torch
 
 
 
@@ -15,7 +16,7 @@ def main():
     # data_ingestion.crop_images()
     # data_ingestion.webcam_capture(15)
     # data_ingestion.decode_webcam_images()
-    data_ingestion.identify_persons('qa')
+    data_ingestion.identify_persons1('qa')
 if __name__ =='__main__':
     try:
         main()
