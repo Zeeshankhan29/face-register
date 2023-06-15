@@ -26,3 +26,25 @@ python main.py
 
 ```
 
+Or Follow the shell script
+
+```
+bash init_setup.sh
+
+```
+
+Activate the virtual environment
+
+```
+conda activate flora
+
+```
+
+run the following commands
+
+```
+python main.py 
+
+```
+
+

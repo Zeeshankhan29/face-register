@@ -317,3 +317,4 @@ class DataIngestion:
         video_capture.release()
         cv2.destroyAllWindows()
         self.f.close()
+    

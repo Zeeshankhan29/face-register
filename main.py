@@ -2,7 +2,7 @@ from src.flora.config import Configuration
 from src.flora.components import DataIngestion
 from src.flora import logger
 import face_recognition
-import torch
+
 
 
 
