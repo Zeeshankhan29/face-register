@@ -1,0 +1,26 @@
+CREATE TRIGGER summary
+AFTER INSERT ON attendance
+FOR EACH ROW
+BEGIN
+    INSERT INTO summary (uuid, count)
+    SELECT NEW.uuid, COUNT(*)
+    FROM attendance
+    WHERE uuid = NEW.uuid
+    GROUP BY uuid
+    ON DUPLICATE KEY UPDATE count = VALUES(count);
+END &&
+
+
+
+DELIMITER &&
+
+CREATE TRIGGER registration
+AFTER INSERT ON attendance
+FOR EACH ROW
+BEGIN
+    INSERT INTO registration (uuid)
+    VALUES (NEW.uuid)
+    ON DUPLICATE KEY UPDATE uuid = VALUES(uuid);
+END &&
+
+DELIMITER ;
