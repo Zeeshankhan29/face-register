@@ -1,0 +1,229 @@
+import cv2
+import dlib
+import numpy as np
+import face_recognition as fr
+import uuid
+import mysql.connector
+from mysql.connector import Error
+import numpy as np
+import os
+from pathlib import Path
+import sys
+import face_recognition
+import string
+
+class FaceDetectorCNN:
+
+    def __init__(self, image_size=(1280, 720), video_source='0', tolerance=0.6):
+        path68 = str(Path(os.path.join(os.getcwd(), 'models/shape_predictor_68_face_landmarks.dat'))) 
+        pathresnet = str(Path(os.path.join(os.getcwd(), 'models/dlib_face_recognition_resnet_model_v1.dat')))
+        parthcnn = str(Path(os.path.join(os.getcwd(), 'models/mmod_human_face_detector.dat')))
+        
+        self.detector = dlib.cnn_face_detection_model_v1(parthcnn) # This is a CNN model
+        self.shape_predictor = dlib.shape_predictor(path68)
+        self.facerec = dlib.face_recognition_model_v1(pathresnet)
+        self.tracked_identities = set()
+        self.video = video_source
+        self.tolerance = tolerance
+
+        self.image_size = image_size
+        self.cap = cv2.VideoCapture(self.video)
+        # Exit if video not opened.
+        if not self.cap.isOpened():
+            print ("Could not open video")
+            sys.exit()
+        self.cap.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc('M', 'J', 'P', 'G')) 
+        self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, self.image_size[0]) 
+        self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, self.image_size[1])
+        # database connection setup
+        try:
+            self.connection = mysql.connector.connect(host='localhost', # adjust these parameters to your DB settings
+                                                database='facevision',
+                                                user='root',
+                                                password='Snzk@#1329')
+            if self.connection.is_connected():
+                self.cursor = self.connection.cursor()
+        except Error as e:
+            print(f"Error while connecting to MySQL: {e}")
+        
+    def __del__(self):
+        if hasattr(self, 'connection') and self.connection.is_connected():
+            self.cursor.close()
+            self.connection.close()
+            print("MySQL connection is closed")
+
+    def draw_bounding_box(self, frame, face, color, uuid):
+        x = face.rect.left()
+        y = face.rect.top()
+        w = face.rect.width()
+        h = face.rect.height()
+        cv2.rectangle(frame, (x, y), (x+w, y+h), color, 2)
+        cv2.putText(frame, str(uuid), (x, y-15), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
+    
+    def draw_face_contour(self, frame, shape, color):
+        points = cv2.convexHull(np.array([(shape.part(n).x, shape.part(n).y) for n in range(shape.num_parts)]))
+        cv2.polylines(frame, [points], True, color, 2)
+
+    def connect_and_insert_into_db(self, predictormodel, detector, posemodel, points, face_descriptor,confidence):
+        if self.connection.is_connected():
+            # create the query string
+            query = """INSERT INTO `footfall_unique_faces` 
+                        (`predictormodel`, `detector`,`posemodel`, `points`, `UUID`, `face_descriptor`, `confidence`, `doc`, `status`) 
+                        VALUES (%s, %s, %s, %s, %s, %s, %s, NOW(), 1)"""
+            
+            # generate a unique UUID
+            id = str(uuid.uuid4())
+
+            # execute the query
+            self.cursor.execute(query, (predictormodel, detector, posemodel, str(points), id, face_descriptor, confidence))
+
+            self.connection.commit()
+            print(self.cursor.rowcount, "Record inserted successfully into footfall_unique_faces table")
+
+    def clean_str(self, s):
+        # remove non-printable characters
+        printable = set(string.printable)
+        clean_s = ''.join(filter(lambda x: x in printable, s))
+        
+        return clean_s
+
+    def convert_to_numpy_array(self, face_descriptor):
+        face_descriptor_list = face_descriptor.strip("[]").split()
+        face_descriptor_floats = [float(num) for num in face_descriptor_list]
+        return np.array(face_descriptor_floats)
+
+    def get_known_encodings(self):
+        try:
+            with self.connection.cursor() as cursor:
+                sql_query = "SELECT UUID, face_descriptor FROM footfall_unique_faces;"
+                cursor.execute(sql_query)
+                result = cursor.fetchall()
+                # Here result will be a list of dictionaries.
+                # Each dictionary represents a row from your table.
+                # The keys of the dictionary are the column names, 
+                # and the values are the corresponding cell values in that row.
+                known_encodings = []
+                list_uuids = []
+                for row in result:
+                    uuid = row[0]
+                    # Clean your string
+                    clean_face_descriptor = self.clean_str(row[1])
+                    face_descriptor = self.convert_to_numpy_array(clean_face_descriptor)
+                    known_encodings.append(face_descriptor)
+                    list_uuids.append(uuid)
+                    #print(f'UUID: {uuid}, Face Descriptor: {face_descriptor}')
+                return {"encodings": known_encodings, "UUIDS": list_uuids}
+            #return None
+        except Error as e:
+            print(f"Error while fetching from MySQL: {e}")
+            return None
+
+    def match_faces(self, current_face_encodings,tolerance=0.6):
+        # Get known face encodings
+        known_face_encodings = self.get_known_encodings()
+        face_matches = []
+        if known_face_encodings is not None:
+            for face_encoding in current_face_encodings:
+                # Compare faces
+                matches = face_recognition.compare_faces(known_face_encodings["encodings"], face_encoding, tolerance)
+                uuid = "Unknown"
+                # check to see if we have found a match
+                if True in matches:
+                    # find the indexes of all matched faces then initialize a
+                    # dictionary to count the total number of times each face
+                    # was matched
+                    matchedIdxs = [i for (i, b) in enumerate(matches) if b]
+                    counts = {}
+                    # loop over the matched indexes and maintain a count for
+                    # each recognized face face
+                    for i in matchedIdxs:
+                        uuid = known_face_encodings["UUIDS"][i]
+                        counts[uuid] = counts.get(uuid, 0) + 1
+                    # determine the recognized face with the largest number of
+                    # votes (note: in the event of an unlikely tie Python will
+                    # select first entry in the dictionary)
+                    uuid = max(counts, key=counts.get)
+                # update the list of face_matches
+                face_matches.append(uuid)
+
+        return face_matches
+
+    def capture_frames(self):
+        try:
+            color_palette = [(np.random.randint(0,256), np.random.randint(0,256), np.random.randint(0,256)) for _ in range(100)]
+            while True:
+                ret, frame = self.cap.read()
+                if not ret:
+                    print("Can't receive frame (stream end?). Exiting ...")
+                    break
+                unknownEncodings = []
+                unknownFaces = []
+                colorsUnknownFaces = []
+                unknownFaceParts = []
+                unknownFaceConfidences = []
+                unknownShapes = []
+                frame_rgb = cv2.cvtColor(src=frame, code=cv2.COLOR_BGR2RGB)
+                faces = self.detector(frame_rgb, 0) # Second argument is upsample_num_times. Increase for detecting small faces
+
+                for idx, face in enumerate(faces):
+                    shape = self.shape_predictor(frame_rgb, face.rect)  
+
+                    # check if shape has correct number of points
+                    #if shape.num_parts != 68 and shape.num_parts != 5: 
+                    if shape.num_parts != 68:
+                        print(f'Unexpected number of points: {shape.num_parts}')
+                        continue
+                    
+                    unknownFaceParts.append(shape.num_parts)
+                    rounded_number_confidence = round(face.confidence, 3)
+                    unknownFaceConfidences.append(rounded_number_confidence)
+                    unknownShapes.append(shape)
+                    #print(rounded_number_confidence)
+                    if rounded_number_confidence >= 0.99:
+                        face_descriptor = self.facerec.compute_face_descriptor(frame_rgb, shape)
+                        face_descriptor = np.array(face_descriptor)
+                        color = color_palette[idx % len(color_palette)]
+                        unknownEncodings.append(face_descriptor)
+                        unknownFaces.append(face)
+                        colorsUnknownFaces.append(color)
+                        #self.draw_face_contour(frame, shape, color)
+                        #print(str(idx))
+                        #print(str(color))
+                        #self.draw_bounding_box(frame, face, color)
+                        #print(face.confidence)
+                    else:
+                        print("The confidence number is less than 0.99")
+
+                known_faces = self.match_faces(unknownEncodings ,0.65)
+
+                for (face, color, uuid, shape, face_descriptor, confidence) in zip(unknownFaces, colorsUnknownFaces, known_faces, unknownShapes, unknownEncodings,unknownFaceConfidences):
+                    if uuid == "Unknown":
+                        # save face descriptor to MariaDB
+                        self.connect_and_insert_into_db('shape_predictor_68_face_landmarks.dat', 
+                                                        'CNN', 
+                                                        str(shape.num_parts), 
+                                                        str([(shape.part(n).x, shape.part(n).y) for n in range(shape.num_parts)]), 
+                                                        str(face_descriptor),
+                                                        str(confidence))
+                    else:
+                        # draw the box and predicted face uuid on the image
+                        #self.draw_face_contour(frame, shape, color)
+                        self.draw_bounding_box(frame, face, color, uuid)
+                        self.tracked_identities.add(uuid)
+                        x = face.rect.left()
+                        y = face.rect.top()
+                        w = face.rect.width()
+                        h = face.rect.height()
+
+
+
+                cv2.imshow('Facial Recongnition', frame)
+                
+                if cv2.waitKey(1) == ord('q'):
+                    break
+
+        finally:
+            self.cap.release()
+            cv2.destroyAllWindows()    
+
+
